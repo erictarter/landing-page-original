@@ -379,6 +379,18 @@ body {
   .social-image {
     width: 50%;
   }
+  body {
+    background: url('https://images.unsplash.com/photo-1476108621677-3c620901b5e7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdoaXRlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60')
+      no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
 }
 
 @media (max-width: 400px) {
@@ -400,19 +412,6 @@ body {
   }
   .intro {
     display: none;
-  }
-
-  body {
-    background: url('https://images.unsplash.com/photo-1476108621677-3c620901b5e7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdoaXRlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60')
-      no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-  .overlay {
-    background: rgba(0, 0, 0, 0.5);
   }
 }
 
