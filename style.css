@@ -379,10 +379,6 @@ body {
   .social-image {
     width: 50%;
   }
-
-  body {
-    background: #333;
-  }
 }
 
 @media (max-width: 400px) {
