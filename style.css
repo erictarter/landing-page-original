@@ -17,15 +17,20 @@ a {
   display: block;
   border-radius: 5px;
   color: #fff;
-  background: rgba(43, 57, 47, 0.75);
+  background: url('https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvZGluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60')
+    no-repeat center center/cover;
   font-size: 2rem;
+  height: 8rem;
   padding: 1rem;
   font-weight: 800;
   text-align: center;
   margin-top: 2rem;
+  opacity: 0.7;
+  display: grid;
+  place-items: center;
 }
 .blog-link:hover {
-  background: rgba(26, 26, 26, 0.9);
+  opacity: 1;
   transition: all 0.5s ease;
 }
 
@@ -43,7 +48,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  height: 2150px;
+  height: 2250px;
   width: 100vw;
   background: rgba(0, 0, 0, 0.449);
 }
@@ -290,7 +295,7 @@ body {
 
 @media (max-width: 1000px) {
   .overlay {
-    height: 2450px;
+    height: 2520px;
   }
 
   .shorten {
@@ -317,7 +322,7 @@ body {
 
 @media (max-width: 700px) {
   .overlay {
-    height: 2500px;
+    height: 2550px;
   }
 
   .page-links {
@@ -380,7 +385,7 @@ body {
     width: 50%;
   }
   body {
-    background-image: linear-gradient(rgb(89, 167, 201), white);
+    background-image: linear-gradient(rgb(16, 45, 88), rgb(89, 167, 201));
   }
 
   .overlay {
