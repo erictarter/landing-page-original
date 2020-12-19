@@ -417,7 +417,7 @@ body {
 
 @media (max-width: 320px) {
   .overlay {
-    height: 3350px;
+    height: 3450px;
   }
   .intro {
     font-size: 1rem;
