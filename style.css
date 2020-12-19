@@ -20,7 +20,7 @@ a {
   background: url('https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvZGluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60')
     no-repeat center center/cover;
   font-size: 2rem;
-  height: 12rem;
+  height: 10rem;
   padding: 1rem;
   font-weight: 800;
   text-align: center;
@@ -28,10 +28,12 @@ a {
   opacity: 0.7;
   display: grid;
   place-items: center;
+  border-radius: 12px;
 }
 .blog-link:hover {
   opacity: 1;
   transition: all 0.5s ease;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .divider {
