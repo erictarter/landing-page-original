@@ -223,6 +223,12 @@ body {
     no-repeat center center/cover;
 }
 
+.section-projects .blog {
+  background: url('https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvZGluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60')
+    no-repeat center center/cover;
+  display: none;
+}
+
 .social {
   margin-top: 4rem;
   background: rgb(36, 36, 36);
@@ -392,6 +398,13 @@ body {
 
   .overlay {
     background: rgba(0, 0, 0, 0.5);
+  }
+
+  .section-projects .blog {
+    display: block;
+  }
+  .blog-link {
+    display: none;
   }
 }
 
